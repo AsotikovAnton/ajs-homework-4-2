@@ -51,6 +51,6 @@ test('Search on two parameters', () => {
     { name: 'маг', type: 'character', description: 'Персонаж, обладающий магическими способностями' },
     { name: 'маг', type: 'character', description: 'Иной персонаж, обладающий магическими способностями' },
   ];
-  
+
   expect(results2.filter(finder)).toEqual(example);
 });
